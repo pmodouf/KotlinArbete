@@ -1,9 +1,9 @@
-package Aoc
+package Main
 
 import java.io.File
 
 fun main() {
-    val input = File("src/main/ÖvnUpgKotlin/Aoc/Aoc2020.txt").readLines()
+    val input = File("src/main/ÖvnUpgKotlin/Main/Aoc2020.txt").readLines()
 
     val validPasswords = input.count { line ->
         val parts = line.split(" ")
